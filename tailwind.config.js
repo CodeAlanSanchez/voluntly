@@ -15,6 +15,7 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            backgroundImage: { 'pastel-gradient': "url('/storage/img/gradient.png')" }
         },
     },
 
