@@ -101,8 +101,8 @@ export default function Register() {
                     <InputError message={ errors.password_confirmation } className="mt-2"/>
                 </div>
 
-                <div>
-                    <PrimaryButton className='' disabled={ processing }>
+                <div className="mt-4">
+                    <PrimaryButton className='w-full' disabled={ processing }>
                         Register
                     </PrimaryButton>
                 </div>

@@ -81,7 +81,7 @@ export default function Login({ status, canResetPassword }: { status?: string, c
 
                 <div className="mt-4">
                     <PrimaryButton
-                        className="w-full text-center"
+                        className="w-full"
                         disabled={ processing }
                     >
                         Login
